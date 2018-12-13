@@ -35,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         rv_url.setLayoutManager(linearLayoutManager);
 
+        getUrls();
+
     }
 
     private void getUrls() {
